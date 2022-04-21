@@ -42,5 +42,12 @@ h1 {
 @media (min-width: 768px){
     .dos-columnas{
         display: flex;
+        justify-content: space-between;
+        gap: 1rem; /* nueva forma */
     }
+
+    /* antigua forma para el espacio */
+    /* .entrada-blog{
+        flex: 0 0 calc(50% - 1rem);
+    } */
 }
